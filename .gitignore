@@ -1,0 +1,19 @@
+@"
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Packaging / editable installs
+*.egg-info/
+
+# Virtual env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
