@@ -23,13 +23,21 @@ This program solves the IU assignment workflow:
 - No command-line argument parsing yet (paths are still defaults unless changed in code).
 - Logging is minimal (plain prints in `main.py`).
 
+## Setup (Windows PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -U pip
+python -m pip install -r requirements.txt
+
 ## Run
-```bash
 python -m src.main
-```
 
 ## Test
-```bash
-pytest -q
-```
+python -m pytest -q
+
+## Input data (CSV)
+Create folder `data/` in the repository root and place:
+- data/train.csv
+- data/ideal.csv
+- data/test.csv
 
