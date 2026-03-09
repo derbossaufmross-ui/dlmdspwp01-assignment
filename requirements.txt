@@ -1,0 +1,5 @@
+﻿pandas
+numpy
+sqlalchemy
+bokeh
+pytest
