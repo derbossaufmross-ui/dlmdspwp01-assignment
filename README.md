@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DLMDSPWP01 Project (Programming with Python)
 
 ## What this project does
@@ -32,6 +32,4 @@ python -m src.main
 ```bash
 pytest -q
 ```
-=======
-# dlmdspwp01-assignment
->>>>>>> e4edee69ba4d37c262560c48ecc510451d1e5495
+
