@@ -13,6 +13,8 @@ __pycache__/
 .venv/
 venv/
 
+data/*.csv
+
 # OS
 .DS_Store
 Thumbs.db
