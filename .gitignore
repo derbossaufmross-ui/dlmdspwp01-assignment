@@ -15,6 +15,10 @@ venv/
 
 data/*.csv
 
+# Generated outputs
+database/
+visualization.html
+
 # OS
 .DS_Store
 Thumbs.db
